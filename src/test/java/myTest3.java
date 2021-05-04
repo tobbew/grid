@@ -32,7 +32,7 @@ public class myTest3 {
         
             driver.findElement(By.id("q")).sendKeys("praktisk mjukvarutestning");
             driver.findElement(By.id("q")).sendKeys(Keys.RETURN);
-            Thread.sleep(6000);
+            Thread.sleep(3000);
             driver.findElement(By.xpath("//*[@id=\"search-hits\"]/div/div/div[1]/div/h4/a")).click();
             Thread.sleep(3000);
             driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[1]/div/div/div[2]/div/div[4]/div/button")).click();
